@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+header {
+    background: #1C6758;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a.active {
+    text-decoration: underline;
+}
+
+.hero {
+    background: #3D8361;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.artikel-card {
+    background: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000020;
+}
+
+.artikel-card a {
+    color: #1C6758;
+    text-decoration: none;
+}
+
+.footer {
+    background: #1C6758;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
